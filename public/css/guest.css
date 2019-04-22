@@ -1,0 +1,294 @@
+@font-face {
+    src: url(../fonts/KeepCalm-Medium.ttf);
+    font-family: "KeepCalm";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav {
+    background-color: #242d36;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.brand {
+    flex-grow: 1;
+}
+
+.brand-title {
+    color: white;
+    display: inline-flex;
+    align-items: center;
+}
+
+.brand-title img {
+    height: 50px;
+    width: auto;
+}
+
+.brand-caption {
+    margin-left: 8px;
+    text-transform: uppercase;
+}
+
+.caption-title {
+    font-family: "KeepCalm";
+    font-weight: normal;
+    text-align: center;
+}
+
+.caption-subtitle {
+    font-family: "KeepCalm";
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-top: 5px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list-item {
+    color: white;
+    padding: 16px;
+    text-transform: uppercase;
+    font-family: "KeepCalm";
+    font-weight: normal;
+    letter-spacing: 1px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-list-item:hover {
+    border-bottom-color: #7acbcc;
+}
+
+.footer {
+    background-color: #242d36;
+    min-height: 80px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 24px;
+}
+
+.footer img {
+    height: 50px;
+    width: auto;
+}
+
+.footer-copyright {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.footer-title {
+    font-family: "KeepCalm";
+    font-weight: normal;
+    line-height: 30px;
+}
+
+main {
+    background-color: #f0f0f0;
+    padding: 35px 0;
+}
+
+.content-wrapper {
+    max-width: 867px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+}
+
+.tagline {
+    background-color: #7acbcc;
+    text-align: center;
+    color: white;
+    width: 45%;
+    padding: 145px 0;
+}
+
+.tagline img {
+    height: 150px;
+    width: auto;
+}
+
+.text-title {
+    font-family: "KeepCalm";
+    font-weight: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.text-subtitle {
+    font-family: "KeepCalm";
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.long-line {
+    border-bottom: 3px solid white;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.description-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.small-line {
+    border-bottom: 3px solid white;
+    width: 45%;
+    margin: 10px auto;
+}
+
+.form {
+    background-color: #242d36;
+    width: 55%;
+}
+
+.form-header {
+    margin: 72px 40px;
+}
+
+.form-title {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.form-title .active {
+    font-size: 32px;
+    padding: 5px 0;
+    border-bottom: 2px solid #7acbcc;
+}
+
+.form-title .separator {
+    margin: 0 16px;
+    font-size: 18px;
+}
+
+.form-title .non-active {
+    color: #777777;
+    font-size: 32px;
+    padding: 5px 0;
+    border-bottom: 2px solid #5f666c;
+}
+
+.form-body {
+    margin: 0 40px 40px 40px;
+}
+
+.form-control {
+    margin-bottom: 40px;
+}
+
+.form-label {
+    color: white;
+    text-transform: uppercase;
+    font-family: "KeepCalm";
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.input {
+    height: 30px;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.form-footer {
+    margin: 0 40px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    padding: 12px 24px 10px 24px;
+    background-color: #7acbcc;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-family: "KeepCalm";
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.form-footer-text {
+    margin-left: 16px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.form-footer-text .link {
+    color: #7acbcc;
+    text-transform: uppercase;
+}
+
+.notification {
+    position: fixed;
+    bottom: -75px;
+    right: 16px;
+    padding: 24px 32px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.notification-message {
+    color: white;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.notification-message .fa {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.bg-yellow {
+    background-color: #ffa000;
+}
+
+.bg-pink {
+    background-color: #ff6ce2;
+}
+
+.bg-blue {
+    background-color: #1976d2;
+}
+
+.bg-green {
+    background-color: #43a047;
+}
+
+.bg-red {
+    background-color: #d32f2f;
+}
